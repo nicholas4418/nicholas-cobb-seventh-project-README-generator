@@ -1,13 +1,21 @@
 {
-  "name": "static-site",
+  "name": "nicholas-cobb-seventh-project-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Professional README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas4418/nicholas-cobb-seventh-project-README-generator.git"
+  },
+  "author": "Nicholas Cobb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicholas4418/nicholas-cobb-seventh-project-README-generator/issues"
+  },
+  "homepage": "https://github.com/nicholas4418/nicholas-cobb-seventh-project-README-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
   }
