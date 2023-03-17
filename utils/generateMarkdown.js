@@ -1,5 +1,5 @@
 function generateMarkdown(data) {
-  
+
   return `# ${data.title}
 ${data.badge}
 ## Description

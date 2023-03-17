@@ -13,7 +13,7 @@ This is a command-line tool that utilizes Node and Inquirer to create a README g
 ## Installation
 Run the command "npm install" for installation.
 ## Usage
-This project can be used by users to quickly generate a professional grade README file for their own projects.
+This project can allow users to quickly create professional grade README files for their own projects.
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <br/>
