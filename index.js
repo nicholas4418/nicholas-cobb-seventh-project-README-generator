@@ -4,7 +4,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 //Array of questions to be used in the file generation
-    const questions = [
+const questions = [
     {
         type: "input",
         name: "title",
@@ -87,7 +87,7 @@ function writeToFile(fileName, data) {
             return console.log(err);
         }
     });
- }
+}
 
 //Initiate function to start the program.
 function init() {
@@ -96,7 +96,7 @@ function init() {
         data.badge = getBadge(data.license);
         writeToFile("./dist/README.md", data);
     });
- }
+}
 
 // Function call to initialize app
 init();
